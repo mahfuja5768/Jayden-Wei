@@ -9,18 +9,22 @@
   h1 {
     font-size: 38px;
     font-weight: 500;
+    line-height: 50px;
   }
   h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
+    line-height: 40px;
   }
   h3 {
     font-size: 26px;
     font-weight: 500;
+    line-height: 50px;
   }
   h4 {
     font-size: 20px;
     font-weight: 500;
+    line-height: 20px;
   }
 
   img {
@@ -40,10 +44,13 @@
 
   .banner_text_div {
     padding: 100px 0;
+    text-align: center;
   }
 
   .banner_text_div p {
     width: 90%;
+    text-align: center;
+    margin: 10px auto;
   }
 
   /* financial section */
@@ -62,24 +69,21 @@
   .management_section div {
     width: 100%;
   }
-  .management_first_part {
-    display: flex;
+  .management_title{
+    padding: 15px 0px 15px 20px;
   }
-  .management_first_part div{
-    width: 100%;
-  }
-  .box {
-    width: 60px;
-    height: 140px;
-    background-color: var(--a);
-    border-radius: 2px;
-  }
-  .management_title {
-    position: absolute;
-    top: 3%;
-    left: 60px;
-    width: 90%;
-  }
+  
+  .management_first_part .management_title::before{
+    content: "";
+      position: absolute;
+      height: 100%;
+      width: 118px;
+      top: 0;
+      left: 0;
+      background: var(--a);
+      z-index: -1;
+      border-radius: 2px;
+  }    
 
   
 /* experience_section */
@@ -90,6 +94,10 @@
 /* service section */
 .service_section {
  flex-direction: column;
+ gap: 30px;
+}
+.service_card {
+  padding: 25px 40px;
 }
 .service_section_2{
   flex-direction: column-reverse;
@@ -99,44 +107,49 @@
 }
 
 .service_text h3 {
-  text-align: right;
+  text-align: center;
   width: 100%;
+}
+.service_text {
+  flex-direction: column-reverse;
+  gap: 5px;
+  text-align: center;
 }
 
 .service_text img {
   width: 80px;
   height: 100px;
+  display: none;
 }
 
-.service_card {
-  border-radius: 28px;
-  padding: 80px 40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 .card_2 h3{
-  text-align: start;
+  text-align: center;
 }
 
 /* footer */
 
 .footer_div{
-  flex-direction: column-reverse;
   gap: 20px;
 }
-
-.footer_left , .footer_right{
+.footer_top , .footer_bottom{
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  flex-direction: column;
 }
-.footer_right p{
+.footer_bottom{
+  flex-direction: column-reverse;
+}
+.footer_bottom p{
   font-size: 15px;
-  color: #fff;
-  margin-top: 20px;
+  margin-top: 16px;
 }
-.footer_right ul li{
-  list-style: none;
+.footer_bottom ul li{
   margin-top: 25px;
+}
+
+.footer_hr{
+  margin: 0 0 10px;
+  width: 100%;
 }
 
 }
@@ -151,15 +164,19 @@
 
   h1 {
     font-size: 45px;
+    line-height: 55px;
   }
   h2 {
-    font-size: 43px;
+    font-size: 36px;
+    line-height: 50px;
   }
   h3 {
     font-size: 31px;
+    line-height: 70px;
   }
   h4 {
     font-size: 25px;
+    line-height: 30px;
   }
   .gap {
     margin-bottom: 80px;
@@ -197,30 +214,66 @@
   .management_section div {
     width: 100%;
   }
-  .management_first_part {
-    display: flex;
-    position: relative;
-  }
-  .management_first_part div {
+  .management_title{
     width: 100%;
+    padding: 25px 0px 25px 43px;
   }
-  .box {
-    width: 60px;
-    height: 140px;
-    background-color: var(--a);
-    border-radius: 2px;
-  }
-  .management_title {
-    position: absolute;
-    top: 6%;
-    left: 68px;
-    width: 60%;
-  }
+  
+  .management_first_part .management_title::before{
+    content: "";
+      position: absolute;
+      height: 100%;
+      width: 230px;
+      top: 0;
+      left: 0;
+      background: var(--a);
+      z-index: -1;
+      border-radius: 2px;
+  }    
 
     
 /* experience_section */
 
 .experience_section_text h2{
   width: 100%;
+}
+/* service section */
+.service_section {
+  flex-direction: column;
+  gap: 30px;
+ }
+ .service_card {
+   padding: 50px 40px;
+ }
+ .service_section_2{
+   flex-direction: column-reverse;
+ }
+ .service_section div {
+   width: 100%;
+ }
+ 
+ .service_text h3 {
+   text-align: center;
+   width: 100%;
+ }
+ .service_text {
+   flex-direction: column-reverse;
+   gap: 5px;
+   text-align: center;
+ }
+ 
+ .service_text img {
+   width: 80px;
+   height: 100px;
+   display: none;
+ }
+ 
+ .card_2 h2{
+   text-align: center;
+ }
+
+/* footer */
+.footer_hr{
+  width: 40%;
 }
 }
