@@ -116,7 +116,7 @@ img {
 .financial_section {
   display: flex;
   justify-content: space-around;
-  gap: 30px;
+  gap: 60px;
 }
 .financial_section div {
   width: 50%;
@@ -193,7 +193,7 @@ img {
 /* service section */
 .service_section {
   display: flex;
-  gap: 20px;
+  gap: 60px;
 }
 .service_section div {
   width: 50%;
@@ -295,7 +295,7 @@ img {
   width: 50%;
   height: 1px;
 }
-
-.hide{
-  display: none;
+.border_left{
+  border-left: 5px solid #833b00;
+  padding-left: 10px;
 }
