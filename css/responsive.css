@@ -99,28 +99,40 @@
 .service_card {
   padding: 25px 40px;
 }
+
 .service_section_2{
   flex-direction: column-reverse;
 }
+
 .service_section div {
   width: 100%;
 }
-
-.service_text h3 {
+.service_text div {
+  width: 10%;
+}
+.service_text h2 {
   text-align: center;
   width: 100%;
 }
 .service_text {
   flex-direction: column-reverse;
-  gap: 5px;
+  gap: 25px;
   text-align: center;
 }
+.service_text_1{
+  flex-direction: column;
+}
 
-.service_text img {
-  width: 80px;
-  height: 100px;
+.triangle_l {
   display: none;
 }
+.triangle_r {
+    display: none;
+  }
+.triangle_b {
+  display: block;
+}
+
 
 .card_2 h3{
   text-align: center;
@@ -252,21 +264,31 @@
    width: 100%;
  }
  
- .service_text h3 {
-   text-align: center;
-   width: 100%;
- }
- .service_text {
-   flex-direction: column-reverse;
-   gap: 5px;
-   text-align: center;
- }
- 
- .service_text img {
-   width: 80px;
-   height: 100px;
-   display: none;
- }
+ .service_text div {
+  width: 10%;
+}
+.service_text h2 {
+  text-align: center;
+  width: 100%;
+}
+.service_text {
+  flex-direction: column-reverse;
+  gap: 25px;
+  text-align: center;
+}
+.service_text_1{
+  flex-direction: column;
+}
+
+.triangle_l {
+  display: none;
+}
+.triangle_r {
+    display: none;
+  }
+.triangle_b {
+  display: block;
+}
  
  .card_2 h2{
    text-align: center;

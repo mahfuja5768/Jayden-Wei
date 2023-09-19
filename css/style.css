@@ -198,18 +198,21 @@ img {
 .service_section div {
   width: 50%;
 }
+.service_text div {
+  width: 10%;
+}
+
 .service_text {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 5px;
+  gap: 20px;
 }
 
-.service_text img {
-  width: 80px;
-  height: 100px;
+.service_text h2{
+  text-align: right;
+  width: 100%;
 }
-
 .service_card {
   background-color: #f9f9f9;
   border-radius: 28px;
@@ -218,10 +221,35 @@ img {
 }
 .card_2 h2{
   text-align: start;
-  width: 75%;
+  width: 100%;
 }
 .service_card p{
   text-align: center;
+}
+.triangle_l {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-right: 80px solid var(--a); 
+  border-bottom: 40px solid transparent;
+  border-radius: 10px;
+}
+.triangle_r {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 80px solid var(--a);
+    border-bottom: 40px solid transparent;
+    border-radius: 10px;
+  }
+.triangle_b {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 80px solid var(--a);
+  display: none;
+  border-radius: 10px;
 }
 
 /* footer */
@@ -268,3 +296,6 @@ img {
   height: 1px;
 }
 
+.hide{
+  display: none;
+}
