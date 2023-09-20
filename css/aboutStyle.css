@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #352110;
+  --secondary: #301e0e;
+  --a: #867a70;
+  --b: #726458;
+  --e: #5d4d40;
+  --c: #493728;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+p {
+  font-size: 15px;
+  color: #999999;
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 70px;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 63px;
+}
+h3 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 70px;
+}
+h4 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+}
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 31px;
+}
+
+ul li{
+  list-style: none;
+  margin-top: 25px;
+}
+
+img {
+  width: 100%;
+}
+.gap {
+  margin-bottom: 80px;
+}
+.title_border {
+  width: 100px;
+  height: 3px;
+  background-color: var(--c);
+  margin-top: 15px;
+}
+.btn {
+  padding: 15px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-color: var(--b);
+}
+.section_bg {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+}
+.padding_side {
+  padding: 0 10px;
+}
+/* banner */
+.banner_section {
+  background-image: url("../images/banner.png");
+  background-color: var(--primary);
+  opacity: 1;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: right;
+}
+
+.banner_text_div {
+  padding: 250px 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+ 
+}
+.banner_text_div h1 {
+  margin-bottom: 10px;
+}
+.banner_text_div p {
+  width: 50%;
+  margin: 20px 0;
+}
+
+.banner_btn {
+  background: #000;
+}
+
+/* management section  */
+
+.management_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .management_section div {
+    width: 50%;
+  }
+  .management_first_part {
+    display: flex;
+    position: relative;
+  }
+   .management_first_part div {
+    width: 100%;
+  } 
+  .management_title{
+    padding: 25px 0px 25px 20px;
+  }
+  
+  .management_first_part .management_title::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-bottom-width: 190px;
+    border-top-width: 0px;
+    border-left: 235px solid var(--a);
+    z-index: -1;
+    left: 0px;
+  }   
+
+  /* financial section */
+.financial_section {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+  }
+  .financial_section div {
+    width: 50%;
+  }
+  .first_part p {
+    margin: 30px 0;
+  }
+  
+  .second_part img {
+    border-radius: 30px;
+  }
+
+  .river_img img{
+    border-radius: 8px;
+  }
+
+
+  /* benefit_section */
+  .benefit_section{
+    text-align: start;
+  }
+
+  /* footer */
+
+.footer_bg{
+    background-image: url("../images/banner.png");
+    background-color: #000000b0;
+    opacity: 1;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  .footer_div{
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+  }
+  
+  .footer_top , .footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .footer_top p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .footer_top ul{
+    margin-left: 20px;
+  }
+  .footer_bottom p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+  }
+  .footer_hr{
+    margin-top: 20px;
+    width: 50%;
+    height: 1px;
+  }
+  .border_left{
+    border-left: 5px solid #833b00;
+    padding-left: 10px;
+  }
