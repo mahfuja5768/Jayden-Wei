@@ -1,0 +1,43 @@
+@media screen and (max-width: 576px) {
+    /* form_section */
+
+.form_section {
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+  .form_section div {
+    width: 100%;
+  }
+  .input_flex {
+      flex-direction: column;
+      gap: 5px;
+  }
+  .contact_text h2 {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 20px
+  }
+}
+
+
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    /* form_section */
+
+.form_section {
+    flex-direction: column-reverse;
+    gap: 80px;
+  }
+  .form_section div {
+    width: 100%;
+  }
+  .input_flex {
+      flex-direction: column;
+      gap: 5px;
+  }
+  .contact_text h2 {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 20px
+  }
+}

@@ -80,8 +80,14 @@ img {
   border-radius: 30px;
   color: #fff;
   border: none;
-  cursor: pointer;
   background-color: var(--b);
+  transition: all .5s;
+}
+.btn:hover {
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary);
 }
 .section_bg {
   background-color: #f9f9f9;
@@ -187,7 +193,7 @@ img {
 .benefit_content_div h3 {
   font-size: 46px;
   line-height: 50px;
-  width: 60%;
+  width: 70%;
 }
 .benefit_section {
   text-align: start;
