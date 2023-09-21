@@ -56,7 +56,7 @@ h5 {
   line-height: 31px;
 }
 
-ul li{
+ul li {
   list-style: none;
   margin-top: 25px;
 }
@@ -108,7 +108,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
- 
 }
 .banner_text_div h1 {
   margin-bottom: 10px;
@@ -125,109 +124,129 @@ img {
 /* management section  */
 
 .management_section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-  }
-  .management_section div {
-    width: 50%;
-  }
-  .management_first_part {
-    display: flex;
-    position: relative;
-  }
-   .management_first_part div {
-    width: 100%;
-  } 
-  .management_title{
-    padding: 25px 0px 25px 20px;
-  }
-  
-  .management_first_part .management_title::before{
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border: 0 solid transparent;
-    border-bottom-width: 190px;
-    border-top-width: 0px;
-    border-left: 235px solid var(--a);
-    z-index: -1;
-    left: 0px;
-  }   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.management_section div {
+  width: 50%;
+}
+.management_first_part {
+  display: flex;
+  position: relative;
+}
+.management_first_part div {
+  width: 100%;
+}
+.management_title {
+  padding: 25px 0px 25px 20px;
+}
 
-  /* financial section */
+.management_first_part .management_title::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 190px;
+  border-top-width: 0px;
+  border-left: 235px solid var(--a);
+  z-index: -1;
+  left: 0px;
+}
+
+/* financial section */
 .financial_section {
-    display: flex;
-    justify-content: space-around;
-    gap: 60px;
-  }
-  .financial_section div {
-    width: 50%;
-  }
-  .first_part p {
-    margin: 30px 0;
-  }
-  
-  .second_part img {
-    border-radius: 30px;
-  }
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+.financial_section div {
+  width: 50%;
+}
+.first_part p {
+  margin: 30px 0;
+}
 
-  .river_img img{
-    border-radius: 8px;
-  }
+.second_part img {
+  border-radius: 30px;
+}
 
+.river_img img {
+  border-radius: 8px;
+}
 
-  /* benefit_section */
-  .benefit_section{
-    text-align: start;
-  }
+/* benefit_section */
+.benefit_content_div {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+.benefit_content_div h3 {
+  font-size: 46px;
+  line-height: 50px;
+  width: 60%;
+}
+.benefit_section {
+  text-align: start;
+}
+.text_content {
+  width: 100%;
+}
+.text_content p {
+  margin-bottom: 20px;
+}
 
-  /* footer */
+.client_section{
+  display: flex;
+}
+/* footer */
 
-.footer_bg{
-    background-image: url("../images/banner.png");
-    background-color: #000000b0;
-    opacity: 1;
-    background-blend-mode: overlay;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-  }
-  .footer_div{
-    padding: 50px 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    gap: 20px;
-  }
-  
-  .footer_top , .footer_bottom{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  .footer_top p{
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .footer_top ul{
-    margin-left: 20px;
-  }
-  .footer_bottom p{
-    font-size: 14px;
-    color: #fff;
-    line-height: 22px;
-  }
-  .footer_hr{
-    margin-top: 20px;
-    width: 50%;
-    height: 1px;
-  }
-  .border_left{
-    border-left: 5px solid #833b00;
-    padding-left: 10px;
-  }
+.footer_bg {
+  background-image: url("../images/banner.png");
+  background-color: #000000b0;
+  opacity: 1;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.footer_div {
+  padding: 50px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+}
+
+.footer_top,
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer_top p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer_top ul {
+  margin-left: 20px;
+}
+.footer_bottom p {
+  font-size: 14px;
+  color: #fff;
+  line-height: 22px;
+}
+.footer_hr {
+  margin-top: 20px;
+  width: 50%;
+  height: 1px;
+}
+.border_left {
+  border-left: 5px solid #833b00;
+  padding-left: 10px;
+}

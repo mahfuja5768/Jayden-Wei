@@ -44,7 +44,7 @@
   .banner_section {
     text-align: center;
   }
-  
+
   .banner_text_div {
     align-items: center;
     padding: 100px 0;
@@ -55,7 +55,7 @@
     text-align: center;
     margin: 10px auto;
   }
-  
+
   /* management section  */
   .management_section {
     flex-direction: column;
@@ -64,11 +64,11 @@
   .management_section div {
     width: 100%;
   }
-  .management_title{
+  .management_title {
     padding: 15px 0px 15px 20px;
   }
-  
-  .management_first_part .management_title::before{
+
+  .management_first_part .management_title::before {
     content: "";
     position: absolute;
     width: 0;
@@ -79,15 +79,32 @@
     border-left: 205px solid var(--a);
     z-index: -1;
     left: 0px;
-  }   
+  }
 
-    /* financial section */
-    .financial_section {
-        flex-direction: column-reverse;
-      }
-      .financial_section div {
-        width: 100%;
-      }
+  /* financial section */
+  .financial_section {
+    flex-direction: column-reverse;
+  }
+  .financial_section div {
+    width: 100%;
+  }
+
+  /* benefit_section */
+  .benefit_content_div {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .benefit_content_div h3 {
+    font-size: 36px;
+    line-height: 50px;
+    width: 90%;
+  }
+  .benefit_section {
+    text-align: start;
+  }
+  .client_section{
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -142,12 +159,12 @@
   .management_section div {
     width: 100%;
   }
-  .management_title{
+  .management_title {
     width: 100%;
     padding: 25px 0px 25px 43px;
   }
-  
-  .management_first_part .management_title::before{
+
+  .management_first_part .management_title::before {
     content: "";
     position: absolute;
     width: 0;
@@ -158,14 +175,29 @@
     border-left: 205px solid var(--a);
     z-index: -1;
     left: 0px;
-  }   
+  }
 
-   /* financial section */
-   .financial_section {
+  /* financial section */
+  .financial_section {
     flex-direction: column-reverse;
   }
   .financial_section div {
     width: 100%;
   }
-
+   /* benefit_section */
+   .benefit_content_div {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .benefit_content_div h3 {
+    font-size: 42px;
+    line-height: 50px;
+    width: 90%;
+  }
+  .benefit_section {
+    text-align: start;
+  }
+  .client_section{
+    flex-direction: column;
+  }
 }
