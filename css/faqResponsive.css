@@ -1,0 +1,41 @@
+@media screen and (max-width: 576px) {
+  /* banner */
+  .banner_section {
+    text-align: center;
+  }
+  .banner_text_div h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+  }
+  /* accordion */
+  .accordion_item_label {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  
+  .fa-angle-down {
+    font-size: 20px;
+  }
+
+}
+
+
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    /* banner */
+  .banner_text_div h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+  }
+  /* accordion */
+  .accordion_item_label {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  
+  .fa-angle-down {
+    font-size: 20px;
+  }
+}
