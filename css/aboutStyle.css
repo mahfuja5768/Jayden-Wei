@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1280px;
   margin: 0 auto;
   width: 100%;
 }
@@ -34,6 +34,7 @@ h1 {
   font-size: 96px;
   font-weight: 500;
   line-height: 70px;
+  display: block
 }
 h2 {
   font-size: 48px;
@@ -189,11 +190,16 @@ img {
   color: #fff;
   justify-content: space-between;
   padding: 60px 10px;
+  gap: 10px;
+}
+.benefit_content_div div{
+  width: 60%;
+
 }
 .benefit_content_div h3 {
   font-size: 46px;
   line-height: 50px;
-  width: 70%;
+  width: 100%;
 }
 .benefit_section {
   text-align: start;
