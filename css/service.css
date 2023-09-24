@@ -1,11 +1,46 @@
-.experience_section{
-    background-image: none;
+.experience_section {
+  background-image: none;
 }
 
-.service_section{
+.service_section {
+  margin-top: 30px;
+}
+
+.service_card {
+  padding: 30px 0;
+}
+
+.first_part h5 {
+  line-height: 0px;
+  margin-bottom: 0;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
     margin-top: 30px;
 }
 
-.service_card{
-    padding: 30px 0;
+.card {
+  text-align: start;
+  box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+  border-radius: 5px;
+  border: 1px solid #ececec;
+  background: #fff;
+}
+.card img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.card_body{
+    padding: 20px 25px;
+}
+
+.hide {
+  display: none;
+}
+.loans_content_div{
+    color: #fff;
 }
