@@ -110,7 +110,7 @@ img {
 }
 
 .banner_text_div {
-  padding: 250px 20px;
+  padding: 150px 20px;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -118,6 +118,9 @@ img {
 }
 .banner_text_div h1 {
   margin-bottom: 10px;
+}
+.banner_text_div h3 {
+  font-size: 30px;
 }
 .banner_text_div p {
   width: 50%;

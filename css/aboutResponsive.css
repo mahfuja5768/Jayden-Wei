@@ -55,6 +55,9 @@
     text-align: center;
     margin: 10px auto;
   }
+  .banner_text_div h3 {
+    font-size: 30px;
+  }
 
   /* management section  */
   .management_section {
@@ -149,6 +152,9 @@
 
   .banner_text_div p {
     width: 70%;
+  }
+  .banner_text_div h3 {
+    font-size: 30px;
   }
 
   /* management section  */

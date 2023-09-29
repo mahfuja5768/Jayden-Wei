@@ -1,4 +1,10 @@
 @media screen and (max-width: 576px) {
+    .banner_text_div h1 {
+        font-size: 50px;
+      }
+      .banner_text_div h3 {
+        font-size: 30px;
+      }
     .cards{
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
@@ -10,6 +16,12 @@
   }
   
   @media screen and (min-width: 577px) and (max-width: 992px) {
+    .banner_text_div h1 {
+        font-size: 70px;
+      }
+      .banner_text_div h3 {
+        font-size: 50px;
+      }
     .cards{
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;

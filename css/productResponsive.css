@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) {
+    .banner_text_div h1 {
+        font-size: 50px;
+    }
+    .banner_text_div h3 {
+          font-size: 30px;
+      }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .banner_text_div h1 {
+        font-size: 70px;
+    }
+    .banner_text_div h3 {
+          font-size: 40px;
+      }
+}

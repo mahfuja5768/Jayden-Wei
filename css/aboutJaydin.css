@@ -3,15 +3,22 @@
     background-image: url("../images/about-jayden-banner.png");
     padding: 0 10px;
   }
-
+  .banner_text_div {
+    padding: 150px 10px;
+    color: #fff;
+  }
+  .banner_text_div h1 {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 70px;
+  }
+  .banner_text_div h4 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 70px;
+  }
 .banner_text_div {
     width: 100%;
-}
-.banner_text_div h1{
-   
-    font-size: 94px;
-    display: block;
-    line-height: 70px;
 }
 
 /* benefit_section */

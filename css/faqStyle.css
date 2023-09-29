@@ -9,8 +9,17 @@
   background-repeat: no-repeat;
   text-align: right;
 }
+.banner_text_div {
+  padding: 150px 10px;
+  color: #fff;
+}
 .banner_text_div h1 {
-  font-size: 80px;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 70px;
+}
+.banner_text_div h4 {
+  font-size: 35px;
   font-weight: 500;
   line-height: 70px;
 }

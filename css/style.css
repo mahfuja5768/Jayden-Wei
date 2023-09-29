@@ -95,7 +95,7 @@ img {
 
 /* header */
 .header {
-  padding: 20px 0;
+  padding: 15px 0;
 }
 .nav {
   height: 60px;
@@ -222,7 +222,7 @@ li a:is(:link, :active, :visited){
 
 /* banner */
 .banner_section {
-  background-image: url("../images/banner.png");
+  background-image: url("../images/home-bg.png");
   background-color: var(--primary);
   opacity: 1;
   background-blend-mode: overlay;

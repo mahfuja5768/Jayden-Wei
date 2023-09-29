@@ -1,0 +1,9 @@
+.banner_section {
+    background-image: url("../images/product-banner.png");
+  }
+  .banner_text_div h1 {
+    font-size: 90px;
+}
+.banner_text_div h3 {
+      font-size: 50px;
+  }

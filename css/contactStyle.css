@@ -1,6 +1,13 @@
 .gap {
-  margin-bottom: 200px;
+  margin-bottom: 180px;
 }
+
+p {
+  font-size: 18px;
+  color: #999999;
+  line-height: 25px;
+}
+
 /* banner_section */
 
 .banner_section {
@@ -14,16 +21,20 @@
   text-align: right;
 }
 
+.banner_text_div {
+  padding: 250px 20px;
+}
+
 /* form_section */
 
 .form_section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   gap: 100px;
 }
 .form_section div {
-  width: 60%;
+  width: 100%;
 }
 .form{
  padding: 40px 40px 80px 40px;
@@ -40,9 +51,10 @@
     border: 1px solid #f4f7fa;
     background: #f5f5f5;
     margin-top: 10px;
-    padding: 8px 13px;
+    padding: 15px 13px;
     margin-bottom: 20px;
     width: 100%;
+    border-radius: 5px;
 }
 .form label {
     font-size: 16px;
