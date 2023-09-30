@@ -21,6 +21,7 @@
     width: 100%;
 }
 
+
 /* benefit_section */
 
 .banner_section_2 {
@@ -49,7 +50,20 @@
   .benefit_section {
     text-align: start;
   }
-
+  .benefit_content_div{
+    align-items: center;
+  }
+  .benefit_content_div h3{
+    width: 70%;
+  }
+  .border_left{
+    height:150px;
+    display: flex;
+    align-items: center;
+  }
+.title_border{
+  height: 5px;
+}
   .first_part li{
     color: #999;
     margin-left: 20px;
@@ -57,4 +71,18 @@
   }
   .title_border{
     margin: 12px 0;
+  }
+
+  .experience_section{
+    background-image: url("../images/abot-jaydin-edu-banner.png");
+  }
+  .experience_section_text h2{
+    font-size: 42px;
+  }
+  .experience_section_text h4{
+    font-size: 25px;
+    font-weight: normal;
+  }
+  .benefit_content_div p{
+    color: #999;
   }

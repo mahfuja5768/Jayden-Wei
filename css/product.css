@@ -3,7 +3,40 @@
   }
   .banner_text_div h1 {
     font-size: 90px;
-}
-.banner_text_div h3 {
-      font-size: 50px;
+  }
+  .banner_text_div h3 {
+    font-size: 50px;
+  }
+  
+  .title_border{
+    height: 5px;
+  }
+  
+  .experience_section{
+    background-image: url("../images/product-3rd-banner.png");
+    padding: 100px 10px;
+  }
+  
+  .benefit_content_div{
+    align-items: center;
+  }
+  .benefit_content_div h3{
+    width: 70%;
+  }
+  .border_left{
+    height:100px;
+    display: flex;
+    align-items: center;
+  }
+  .experience_section p{
+    color: #000;
+  }
+  .renewable_section{
+    padding: 70px 10px;
+    background-image: url("../images/product-saving-banner.png");
+
+  }
+
+  .benefit_content_div p{
+    color: #999;
   }

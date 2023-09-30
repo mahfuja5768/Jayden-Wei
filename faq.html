@@ -252,25 +252,13 @@
             </div>
           </div>
           <div class="footer_bottom">
-            <p>Copyright © 2022 Jayden Wei. All rights reserved.</p>
-            <hr class="footer_hr" />
+            <p>Copyright © <span id="currentYear"></span> Jayden Wei. All rights reserved.</p>            <hr class="footer_hr" />
           </div>
         </div>
       </footer>
     </main>
 
-    <script>
-      const accordionItems = document.querySelectorAll(".accordion_item");
 
-      accordionItems.forEach((item) => {
-        const label = item.querySelector(".accordion_item_label");
-        const icon = item.querySelector(".fa-angle-down");
-        label.addEventListener("click", () => {
-          item.classList.toggle("open");
-          icon.classList.toggle("rotate");
-        });
-      });
-    </script>
     <script src="./js/main.js"></script>
   </body>
 </html>

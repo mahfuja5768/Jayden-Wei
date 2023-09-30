@@ -7,12 +7,9 @@
 }
 
 :root {
-  --primary: #352110;
-  --secondary: #301e0e;
-  --a: #867a70;
-  --b: #726458;
-  --e: #5d4d40;
-  --c: #493728;
+  --primary: #463564;
+  --active: #7e7293;
+  --secondary: #2f2343;
 }
 
 body {
@@ -34,7 +31,7 @@ h1 {
   font-size: 96px;
   font-weight: 500;
   line-height: 70px;
-  display: block
+  display: block;
 }
 h2 {
   font-size: 48px;
@@ -70,8 +67,8 @@ img {
 }
 .title_border {
   width: 100px;
-  height: 3px;
-  background-color: var(--c);
+  height: 5px;
+  background-color: var(--active);
   margin-top: 15px;
 }
 .btn {
@@ -81,8 +78,8 @@ img {
   border-radius: 30px;
   color: #fff;
   border: none;
-  background-color: var(--b);
-  transition: all .5s;
+  background-color: var(--active);
+  transition: all 0.5s;
 }
 .btn:hover {
   color: #fff;
@@ -100,7 +97,7 @@ img {
 /* banner */
 .banner_section {
   background-image: url("../images/banner.png");
-  background-color: var(--primary);
+  background-color: var(--secondary);
   opacity: 1;
   background-blend-mode: overlay;
   background-position: center;
@@ -116,6 +113,7 @@ img {
   flex-direction: column;
   align-items: flex-end;
 }
+
 .banner_text_div h1 {
   margin-bottom: 10px;
 }
@@ -152,6 +150,9 @@ img {
 .management_title {
   padding: 25px 0px 25px 20px;
 }
+.management_first_part .management_title::before {
+  background: #fff;
+}
 
 .management_first_part .management_title::before {
   content: "";
@@ -161,7 +162,7 @@ img {
   border: 0 solid transparent;
   border-bottom-width: 190px;
   border-top-width: 0px;
-  border-left: 235px solid var(--a);
+  border-left: 235px solid var(--active);
   z-index: -1;
   left: 0px;
 }
@@ -184,10 +185,21 @@ img {
 }
 
 .river_img img {
-  border-radius: 8px;
+  border-radius: 30px;
 }
 
 /* benefit_section */
+
+.banner_section{
+  background-image: url("../images/about-benefit.png");
+  background-color: var(--primary);
+  opacity: 1;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .benefit_content_div {
   display: flex;
   color: #fff;
@@ -195,14 +207,17 @@ img {
   padding: 60px 10px;
   gap: 10px;
 }
-.benefit_content_div div{
-  width: 60%;
+.border_left {
+  height: 100px;
+}
 
+.benefit_content_div div {
+  width: 50%;
 }
 .benefit_content_div h3 {
   font-size: 46px;
   line-height: 50px;
-  width: 100%;
+  width: 60%;
 }
 .benefit_section {
   text-align: start;
@@ -212,9 +227,10 @@ img {
 }
 .text_content p {
   margin-bottom: 20px;
+  color: #fff;
 }
 
-.client_section{
+.client_section {
   display: flex;
 }
 /* footer */
@@ -261,7 +277,6 @@ img {
   width: 50%;
   height: 1px;
 }
-.border_left {
-  border-left: 5px solid #833b00;
-  padding-left: 10px;
+.footer_top .border_left{
+  height: 25px;
 }

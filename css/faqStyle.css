@@ -41,7 +41,7 @@
   padding: 10px;
   cursor: pointer;
   padding: 19px 27px 20px 32px;
-  background-color: var(--c);
+  background-color: var(--primary);
   user-select: none;
   display: flex;
   justify-content: space-between;

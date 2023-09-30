@@ -178,7 +178,7 @@
     border: 0 solid transparent;
     border-bottom-width: 160px;
     border-top-width: 0px;
-    border-left: 205px solid var(--a);
+    border-left: 205px solid var(--active);
     z-index: -1;
     left: 0px;
   }

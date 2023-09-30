@@ -4,9 +4,12 @@
     text-align: center;
   }
   .banner_text_div h1 {
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 45px;
     line-height: 60px;
+  }
+  .banner_text_div h4 {
+    font-size: 30px;
+    line-height: 40px;
   }
   /* accordion */
   .accordion_item_label {
@@ -24,11 +27,14 @@
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
     /* banner */
-  .banner_text_div h1 {
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 60px;
-  }
+    .banner_text_div h1 {
+      font-size: 60px;
+      line-height: 65px;
+    }
+    .banner_text_div h4 {
+      font-size: 40px;
+      line-height: 50px;
+    }
   /* accordion */
   .accordion_item_label {
     font-size: 26px;

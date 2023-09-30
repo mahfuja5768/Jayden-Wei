@@ -2,17 +2,53 @@
   background-image: url("../images/service-banner.png");
 }
 
+.banner_section_2{
+  background-image: url("../images/fintech-saving-account.png");
+}
+
 .banner_text_div h1 {
   font-size: 90px;
 }
 .banner_text_div h3 {
   font-size: 50px;
 }
-
+ .benefit_content_div{
+  align-items: center;
+}
+ .benefit_content_div .border_left{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.benefit_content_div div{
+ width: 100%;
+}
+.benefit_content_div h3{
+ width: 70%;
+ padding-left: 30px;
+}
+.title_border{
+  height: 5px;
+}
 .experience_section {
   background-image: none;
 }
-
+.experience_section_text h2{
+  width: 50%;
+}
+.experience_section_text p{
+  width: 85%;
+}
+.banking_cards_text h2{
+  width: 100%;
+}
+.banking_cards_text p{
+  width: 65%;
+}
+.benefit_content_div p{
+  color: #999;
+}
 .service_section {
   margin-top: 30px;
 }
@@ -29,7 +65,7 @@
 .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
+    gap: 30px;
     margin-top: 30px;
 }
 
@@ -46,12 +82,14 @@
     border-top-left-radius: 5px;
 }
 .card_body{
-    padding: 20px 25px;
+    padding: 20px 40px 20px 10px;
 }
-
-.hide {
-  display: none;
+.card p{
+  width: 100%;
 }
-.loans_content_div{
+.loans_section{
+  padding: 50px 10px;
+}
+.loans_content_div, .loans_content_div p{
     color: #fff;
 }

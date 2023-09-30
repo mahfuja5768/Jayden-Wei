@@ -7,12 +7,9 @@
 }
 
 :root {
-  --primary: #352110;
-  --secondary: #301e0e;
-  --active:#ff7802;
-  --a: #867a70;
-  --b: #726458;
-  --c: #493728;
+  --primary: #463564;
+  --active:#7e7293;
+  --navActive:#c080c0;
 }
 
 body {
@@ -65,8 +62,8 @@ img {
 }
 .title_border {
   width: 100px;
-  height: 3px;
-  background-color: var(--c);
+  height: 5px;
+  background-color: var(--active);
   margin-top: 15px;
 }
 .btn {
@@ -76,7 +73,7 @@ img {
   border-radius: 30px;
   color: #fff;
   border: none;
-  background-color: var(--b);
+  background-color: var(--active);
   transition: all 0.5s;
 }
 .btn:hover {
@@ -127,7 +124,7 @@ nav,
   text-decoration: none;
 }
 .nav-logo {
-  color: var(--c);
+  color: var(--navActive);
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
@@ -150,7 +147,7 @@ li a:is(:link, :active, :visited){
 }
 
 .nav-item a:is(:link, :active, :visited).active{
-  color: var(--active);
+  color: var(--navActive);
 }
 
 .hamburger {
@@ -165,7 +162,7 @@ li a:is(:link, :active, :visited){
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
-  background-color: var(--c);
+  background-color: var(--primary);
 }
 
 @media(max-width:992px){
@@ -293,7 +290,7 @@ li a:is(:link, :active, :visited){
   width: 193px;
   top: 0;
   left: 0;
-  background: var(--a);
+  background: var(--active);
   border-radius: 2px;
   z-index: -1;
 }
@@ -363,26 +360,23 @@ li a:is(:link, :active, :visited){
   width: 0;
   height: 0;
   border-top: 40px solid transparent;
-  border-right: 80px solid var(--a);
+  border-right: 50px solid var(--active);
   border-bottom: 40px solid transparent;
-  border-radius: 10px;
 }
 .triangle_r {
   width: 0;
   height: 0;
   border-top: 40px solid transparent;
-  border-left: 80px solid var(--a);
+  border-left: 50px solid var(--active);
   border-bottom: 40px solid transparent;
-  border-radius: 10px;
 }
 .triangle_b {
   width: 0;
   height: 0;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
-  border-top: 80px solid var(--a);
+  border-top: 50px solid var(--active);
   display: none;
-  border-radius: 10px;
 }
 
 /* footer */
@@ -430,7 +424,7 @@ li a:is(:link, :active, :visited){
   height: 1px;
 }
 .border_left {
-  border-left: 5px solid #833b00;
+  border-left: 5px solid var(--active);
   padding-left: 10px;
 }
 .footer_nav li a{
